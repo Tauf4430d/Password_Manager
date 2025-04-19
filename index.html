@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Password Manager</title>
-</head>
-<body>
-  test
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <div class="header">
+      <h1>Password Manager</h1>
+      <div class="btn">
+        <button id="add">Add</button>
+      </div>
+    </div>
+    <!-- main section  -->
+    <div class="container">
+      <div class="pass">
+        <div class="website">
+          <img src="assests/internet.png" height="30px" />
+          <h3>google.com</h3>
+        </div>
+        <div class="user">
+          <p>amee4430d</p>
+        </div>
+        <div class="password">
+          <p>********</p>
+        </div>
+        <div class="options">
+          <img src="assests/eye.png" width="30px" />
+          <img src="assests/copy.png" width="30px" />
+          <img src="assests/cross.png" width="30px" />
+          <img src="assests/pencil.png" width="30px" />
+        </div>
+      </div>
+      <div class="pass">
+        <div class="website">
+          <img src="assests/internet.png" height="30px" />
+          <h3>google.com</h3>
+        </div>
+        <div class="user">
+          <p>amee4430d</p>
+        </div>
+        <div class="password">
+          <p>********</p>
+        </div>
+        <div class="options">
+          <img src="assests/eye.png" width="30px" />
+          <img src="assests/copy.png" width="30px" />
+          <img src="assests/cross.png" width="30px" />
+          <img src="assests/pencil.png" width="30px" />
+        </div>
+      </div>
+    </div>
+
+    <div class="popup">
+      <div class="popup-content">
+        <input type="text" placeholder="WEBSITE" />
+        <input type="text" placeholder="USERNAME" />
+        <input type="password" placeholder="PASSWORD" />
+        <p id="warnings"></p>
+        <button>SUBMIT</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
 </html>
